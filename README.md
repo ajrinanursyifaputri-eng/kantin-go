@@ -62,6 +62,3 @@ Server akan berjalan otomatis dengan auto-reload & preview.
 
 ---
 
----
-
-Mau aku bikinkan file `README.md` langsung (markdown siap pakai) biar kamu tinggal copy ke repo GitHub?
