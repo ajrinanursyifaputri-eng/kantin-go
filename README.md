@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
 
-## Project info
+# Kantin Go
 
-**URL**: https://lovable.dev/projects/863a804a-7f9a-4612-9c25-c0d519aa7fb0
+Aplikasi **Kantin Digital** untuk mempermudah pengelolaan menu, pemesanan, dan transaksi.
 
-## How can I edit this code?
+## 🚀 Cara Menjalankan Project
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/863a804a-7f9a-4612-9c25-c0d519aa7fb0) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### 1. Clone Repository
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone 
+cd kantin-go
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 2. Install Dependencies
 
-# Step 3: Install the necessary dependencies.
-npm i
+Pastikan sudah terpasang **Node.js** dan **npm**.
+Lalu jalankan:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```sh
+npm install
+```
+
+### 3. Menjalankan Server Development
+
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Server akan berjalan otomatis dengan auto-reload & preview.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🔧 Cara Edit Project
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Edit langsung di GitHub
 
-## What technologies are used for this project?
+1. Buka file yang ingin diubah.
+2. Klik ikon ✏️ **Edit (pencil)**.
+3. Lakukan perubahan, lalu commit.
 
-This project is built with:
+### Pakai IDE lokal
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Buka project di IDE favorit (misalnya VS Code).
+2. Lakukan edit, commit, lalu push ke repo.
 
-## How can I deploy this project?
+### Pakai GitHub Codespaces
 
-Simply open [Lovable](https://lovable.dev/projects/863a804a-7f9a-4612-9c25-c0d519aa7fb0) and click on Share -> Publish.
+1. Klik tombol **Code (hijau)** di repo ini.
+2. Pilih tab **Codespaces** → **New Codespace**.
+3. Edit project langsung di browser.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🛠️ Teknologi yang Digunakan
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* [Vite](https://vitejs.dev/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [React](https://react.dev/)
+* [shadcn-ui](https://ui.shadcn.com/)
+* [Tailwind CSS](https://tailwindcss.com/)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+---
+
+Mau aku bikinkan file `README.md` langsung (markdown siap pakai) biar kamu tinggal copy ke repo GitHub?
